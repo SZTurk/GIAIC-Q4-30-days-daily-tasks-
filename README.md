@@ -71,3 +71,31 @@ A. Knows little about everything
 B. Deep in only one field
 ✔️ C. Deep skills in multiple related domains
 D. Works without AI tools
+
+
+
+
+
+
+
+Practical task:
+
+
+
+
+> Write a 1-paragraph specification for an email validation function withese rules: 1. must contain "@" 2. must contain a valid domain like ".com" or
+  ".org" 3. must return clear error messages
+
+✦ The email validation function, validate_email(email_string), will analyze a given string to determine if it is a syntactically correct email address.
+  The function must first confirm the presence of an "@" symbol to distinguish the local part from the domain. It will then verify that the domain
+  contains a valid top-level domain (TLD), such as ".com", ".org", or ".net", which must follow the "@" symbol. If the email string fails any of these
+  rules, the function will return a clear and specific error message detailing the exact validation failure; otherwise, it will return True to indicate
+  the email is valid. 
+
+
+
+
+<img width="1301" height="223" alt="task2" src="https://github.com/user-attachments/assets/56b2d281-945f-4fa4-9c3b-8aa6547aece0" />
+
+  
+
